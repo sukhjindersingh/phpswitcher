@@ -4,7 +4,6 @@
 # create the directories only in your virtual hosts
 
 function ask() {
-# http://djm.me/ask - see this link for information about the ask function
 while true; do
 
     if [ "${2:-}" = "Y" ]; then
